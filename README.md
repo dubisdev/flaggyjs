@@ -1,8 +1,9 @@
 # FlaggyJS 🚩 - Manage bitewise flags *wisely*
 
+> Made with ❤️‍🔥 by [David Jiménez](https://dubis.dev)
+
 `FlaggyJS` is a lightweight TypeScript library for managing bitwise flags.
-This library provides an efficient way to handle permission systems, feature toggles,
-or any context where managing a set of binary flags is needed.
+Powerful and efficient binary flags managing for permission systems, feature toggles, or any use-case.
 
 ```typescript
 // 1. Import the library
@@ -82,16 +83,3 @@ The package uses `tsc` for building TypeScript into JavaScript:
 ```bash
 bun run build
 ```
-
-### File Structure
-
-- **`index.ts`**: Main source file containing the `useFlags` implementation.
-- **`flag-operations.js`**: Contains bitwise operations like `addFlag`, `addFlags`, `hasFlag`, and `removeFlag`.
-- **`input-validators.js`**: Handles validation of input flags.
-- **`index.test.ts`**: Unit tests for the package.
-
-## Contributing
-
-Contributions are welcome! If you encounter bugs, feel free to open an issue or submit a pull request.
-
-> Made with ❤️‍🔥 by [David Jiménez](https://dubis.dev)
