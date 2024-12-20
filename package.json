@@ -1,0 +1,31 @@
+{
+  "name": "flaggyjs",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "exports": {
+    ".": {
+      "import": {
+        "types": "./dist/index.d.ts",
+        "default": "./dist/index.js"
+      }
+    }
+  },
+  "keywords": [],
+  "author": "David Jimenez <dubisdev@gmail.com> (https://dubis.dev)",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc",
+    "test": "vitest"
+  },
+  "devDependencies": {
+    "@types/bun": "latest",
+    "vitest": "2.1.8"
+  },
+  "peerDependencies": {
+    "typescript": "5.7.2"
+  },
+  "files": [
+    "dist"
+  ]
+}
