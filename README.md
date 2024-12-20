@@ -29,7 +29,6 @@ console.log(flaggy.hasFlag(flags.AMAZING)); // true
 console.log(documentation.hasFlag(flags.SIMPLE)); // true
 console.log(flaggy.hasFlag(flags.BORING)); // false
 
-// 
 console.log(flags)
 // {
 //     AMAZING: "AMAZING",
@@ -40,11 +39,11 @@ console.log(flags)
 
 ## Features
 
-- **Type-safe flag management** [without Enums](https://www.totaltypescript.com/why-i-dont-like-typescript-enums).
-- **Zero dependencies** - No extra packages are used.
-- **Bitwise operations**: Efficiently manage flags with bitwise operations under the hood.
-- **Validation**: Ensures invalid flags are caught early.
-- **Immutable flag definitions**: Prevent accidental changes to the flag definitions.
+- 🔒 **Type-safe flag management** [without Enums](https://www.totaltypescript.com/why-i-dont-like-typescript-enums).
+- 🤏 **Zero dependencies** - No extra packages are used.
+- 🧙‍♂️ **Bitwise operations**: Efficiently manage flags with bitwise operations under the hood.
+- 🔎 **Validation**: Ensures invalid flags are caught early.
+- 💎 **Immutable flag definitions**: Prevent accidental changes to the flag definitions.
 
 ## Installation
 
