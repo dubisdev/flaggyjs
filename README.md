@@ -1,6 +1,24 @@
-# FlaggyJS 🚩 - Manage bitewise flags *wisely*
+<h1 align="center">FlaggyJS 🚩</h1>
 
-> Made with ❤️‍🔥 by [David Jiménez](https://dubis.dev)
+<p align="center">
+  <strong>Manage bitewise flags <i>wisely</i></strong>
+  <br/>
+  <i>Built with ❤️‍🔥 by <a href="https://github.com/dubisdev">@dubisdev</a></i>
+</p>
+
+<p align="center">
+  <img
+      src="https://img.shields.io/github/package-json/v/dubisdev/flaggyjs?label=Version&style=flat-square"
+      alt="Last available version" />
+  <img
+      src="https://img.shields.io/badge/Dependencies-0-blue?style=flat-square"
+      alt="Dependency count showing zero dependencies" />
+  <img
+      src="https://img.shields.io/npm/d18m/flaggyjs?style=flat-square&logoColor=blue&label=Downloads&color=blue"
+      alt="Total downloads" />
+</p>
+
+<hr />
 
 `FlaggyJS` is a lightweight TypeScript library for managing bitwise flags.
 Powerful and efficient binary flags managing for permission systems, feature toggles, or any use-case.
